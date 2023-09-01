@@ -1,4 +1,4 @@
-package lesson01;
+package task01;
 
 public class Owner {
     private String name;

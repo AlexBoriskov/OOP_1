@@ -1,4 +1,4 @@
-package lesson01;
+package task01;
 
 public class Cat {
     private String name;
@@ -36,7 +36,7 @@ public class Cat {
     }
 
     public void greet(){
-        System.out.printf("Мяу. Меня зовут %s. Мне %d лет. Моего хозяина зовут %s", name, age, owner.getName());
+        System.out.printf("Мяу. Меня зовут %s. Мне %d лет. Моего хозяина зовут %s!", name, age, owner.getName());
     }
 }
 
